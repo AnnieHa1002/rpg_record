@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Person">
+      <UniqueIdentifier>{23773f9b-d42c-44ca-8fc6-a69f9a65f58e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Place">
+      <UniqueIdentifier>{6b03a35b-4e00-4f11-be3f-1269993814ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Person\Job">
+      <UniqueIdentifier>{3ad0d3a7-8bfe-4fbc-96c5-6e4830e671e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Person\Constitution">
+      <UniqueIdentifier>{bbcc27d0-ff0a-4761-86b9-2ab75c4ece13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Person\Character">
+      <UniqueIdentifier>{72a85c25-364f-4916-84e2-8029504c29a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Item">
+      <UniqueIdentifier>{e4b0bc84-1e2d-422f-861e-655bea886295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Application">
+      <UniqueIdentifier>{12637523-40b4-48dc-8092-0b0d7416f0fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\System">
+      <UniqueIdentifier>{625acec0-2516-466c-89d5-ee3af118b9c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Application">
+      <UniqueIdentifier>{79f4f31e-1f69-4835-8de9-aa35e72a66cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Item">
+      <UniqueIdentifier>{87778d8c-8f3b-4db8-88f2-dc51cc522118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Person">
+      <UniqueIdentifier>{19e0bc63-6950-482e-b432-0c7055ee1677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Place">
+      <UniqueIdentifier>{117c6df0-3a54-4b8f-bdf2-40b60fe6b1bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\System">
+      <UniqueIdentifier>{939940a2-21ec-46f2-b5dd-2190904a4ac5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Person\Job">
+      <UniqueIdentifier>{7812853b-36dc-436b-828f-a855a4e032e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Person\Constitution">
+      <UniqueIdentifier>{701f446d-b0aa-49c3-84cb-ec2d99afecdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{3cede72b-4445-420e-a6ae-db27728d6289}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application\Application.cpp">
+      <Filter>소스 파일\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Person\Person.cpp">
+      <Filter>소스 파일\Person</Filter>
+    </ClCompile>
+    <ClCompile Include="System\System.cpp">
+      <Filter>소스 파일\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Person\Job\Job.cpp">
+      <Filter>소스 파일\Person\Job</Filter>
+    </ClCompile>
+    <ClCompile Include="Person\Job\Job.h">
+      <Filter>헤더 파일\Person\Job</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Core.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="System\System.h">
+      <Filter>헤더 파일\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Person\Person.h">
+      <Filter>헤더 파일\Person</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\Application.h">
+      <Filter>헤더 파일\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Person\Constitution\Constitution.h">
+      <Filter>헤더 파일\Person\Constitution</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Core.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

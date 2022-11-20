@@ -1,0 +1,16 @@
+
+#include <iostream>
+
+enum JOB {
+	PT_STUDENT,
+	PT_WIZARD,
+	PT_ARCHER,
+	PT_KNIGHT,
+	PT_SHIELD,
+	PT_COOK,
+	PT_FARMER,
+	PT_BLACKSMITH,
+	PT_TEACHER,
+	PT_SINGER,
+	PT_ARTIST
+}
